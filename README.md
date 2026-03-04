@@ -1,4 +1,4 @@
-# Marketing Campaign Performance Analysis: Tech-Savvy Solutions
+# Marketing Campaign Performance Analysis: Tech Savvy Solutions
 
 A comprehensive end-to-end Marketing Campaign Analytics solution developed using Power BI, featuring Excel-driven exploratory analysis, robust star schema data modeling, centralized DAX measure optimization, short-term predictive forecasting, and executive-focused performance optimization dashboards designed to drive data-driven decision-making.
 
@@ -341,6 +341,11 @@ This ensured executive-level storytelling and avoided visual clutter.
 <img width="1280" height="720" alt="Slide3" src="https://github.com/user-attachments/assets/16527c60-e7d4-45a4-812d-c6fb42600ad5" />
 
 <img width="1280" height="720" alt="Slide4" src="https://github.com/user-attachments/assets/85f492ea-836c-4f22-a77e-1ef4c68fc5b3" />
+
+## Dashboard Preview
+A visual overview of the four-page Power BI report, showcasing executive performance metrics, customer acquisition insights, trend analysis with forecasting, and strategic optimization dashboards.
+
+![Dashboard Preview](Dashboard%20Pages/Dashboard%20Preview.png)
 
 ## Dashboard Breakdown
 

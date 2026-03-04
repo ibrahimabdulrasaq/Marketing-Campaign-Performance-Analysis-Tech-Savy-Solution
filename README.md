@@ -1,5 +1,6 @@
-# Marketing Campaign Performance Analysis: Tech-Savy Solution
-End-to-end marketing campaign analytics solution built with Power BI, including Excel-based EDA, scalable star schema modeling, optimized DAX measures, short-term forecasting, and strategic performance optimization dashboards.
+# Marketing Campaign Performance Analysis: Tech-Savvy Solutions
+
+A comprehensive end-to-end Marketing Campaign Analytics solution developed using Power BI, featuring Excel-driven exploratory analysis, robust star schema data modeling, centralized DAX measure optimization, short-term predictive forecasting, and executive-focused performance optimization dashboards designed to drive data-driven decision-making.
 
 # 📑 Table of Contents
 
@@ -12,7 +13,7 @@ End-to-end marketing campaign analytics solution built with Power BI, including 
 
   * [Structure](#structure)
   * [Dataset Characteristics](#dataset-characteristics)
-  * [Dataset Dictionary](#dataset-dictionary)
+  * [Data Dictionary](#data-dictionary)
 * [Tools & Technologies](#tools--technologies)
 * [Project Execution Workflow](#project-execution-workflow)
 
@@ -29,6 +30,7 @@ End-to-end marketing campaign analytics solution built with Power BI, including 
   * [Page 3 – Trend & Predictive Insights](#page-3--trend--predictive-insights)
   * [Page 4 – Executive Optimization Summary](#page-4--executive-optimization-summary)
 * [Forecasting Approach](#forecasting-approach)
+* [Bookmarks Navigation & Custom buttons](#bookmarks-navigation--custom-buttons)
 * [Overall Strategic Recommendation](#overall-strategic-recommendation-summary)
 * [Business Impact](#business-impact)
 * [Limitations](#limitations)
@@ -47,7 +49,9 @@ The final solution connects marketing spend, acquisition efficiency, revenue per
 
 ## Live Interactive Dashboard
 
-👉 View the interactive dashboard here: [Click to Explore](https://www.novypro.com/profile_about/1768603691117x499853414232449100?Popup=memberProject&Data=1772609122232x542527365498012900)
+👉 To view the interactive dashboard and explore its full functionality: 
+
+[Click here](https://www.novypro.com/profile_about/1768603691117x499853414232449100?Popup=memberProject&Data=1772609122232x542527365498012900)
 
 ## Business Context
 
@@ -61,7 +65,7 @@ Marketing teams face critical questions:
 
 * Is performance stable over time?
 
-* Where should we reallocate budget for maximum impact?
+* Where should we reallocate the budget for maximum impact?
 
 This project consolidates campaign data into a unified BI solution to support data-driven marketing decisions.
 
@@ -102,9 +106,7 @@ The analysis was guided by the following questions:
 ## Dataset Description
 
 ### Structure
-The dataset represents structured marketing campaign performance data.
-
-Each row captures campaign-level metrics, including:
+The dataset represents structured marketing campaign performance data. Each row captures campaign-level metrics, including:
 
 * Company
 * Campaign_Type
@@ -122,7 +124,7 @@ Each row captures campaign-level metrics, including:
 * Customer_Segment
 * Date
 
-Raw Dataset: Sample
+Raw Dataset - Sample
 <img width="1319" height="550" alt="Raw Dataset (Sample)" src="https://github.com/user-attachments/assets/d5698637-0c44-4841-9ab4-65a08bf52636" />
 
 ### Dataset Characteristics:
@@ -133,8 +135,8 @@ Raw Dataset: Sample
 
 * Time Coverage: Multi-period marketing activity
 
-### Dataset Dictionary 
-To better understand the dataset. I created a simple data dictionary to describe each column:
+### Data Dictionary 
+To better understand the structure of the dataset. I created a simple data dictionary to describe each column:
 <img width="1348" height="366" alt="Screenshot 2026-03-04 021547" src="https://github.com/user-attachments/assets/42abbf5d-f513-452d-80e0-7d08b930593a" />
 
 ## Tools & Technologies
@@ -155,7 +157,7 @@ To better understand the dataset. I created a simple data dictionary to describe
 
 * PowerPoint (Wireframing)
 
-* Bookmark Navigation
+* Bookmarks Navigation & Custom buttons
 
 * Data Visualization & Storytelling
 
@@ -168,6 +170,8 @@ Imported the raw marketing campaign dataset into Power BI (Power Query)
 <img width="1366" height="721" alt="Get Data 01" src="https://github.com/user-attachments/assets/25a3c7f8-c772-47f1-a3e9-d8e98faff57c" />
 
 <img width="682" height="662" alt="Get Data 02" src="https://github.com/user-attachments/assets/2528b7b8-5923-4299-b942-b69f5fef4b4c" />
+
+<img width="880" height="660" alt="Data Ingestion 03" src="https://github.com/user-attachments/assets/92869263-8a4c-46f6-9f65-5fc149e631c6" />
 
 ### Phase 2: Data Cleaning & Transformation
 
@@ -187,6 +191,14 @@ Cleaned and transformed the data using Power Query. The following processes were
 
 * Ensured consistent formatting across categorical fields
 
+<img width="1366" height="721" alt="01 Data Preparation" src="https://github.com/user-attachments/assets/1cd0453c-c7d6-4512-a4da-e186f56ac7be" />
+
+<img width="1366" height="721" alt="02 Data Preparation" src="https://github.com/user-attachments/assets/987a387e-b033-4532-b6db-966b4f023d24" />
+
+<img width="1366" height="721" alt="03 Data Preparation" src="https://github.com/user-attachments/assets/c2da03f6-dd53-4f45-a1c3-1e1ca167cd38" />
+
+<img width="1366" height="721" alt="04 Data Preparation" src="https://github.com/user-attachments/assets/182bfc8a-c836-4a95-878f-b22fcb662306" />
+
 **Why This Was Important:**
 
 * Prevented aggregation errors in Power BI
@@ -199,13 +211,6 @@ Cleaned and transformed the data using Power Query. The following processes were
 
 This phase ensured that the dataset was analytics-ready before modeling.
 
-<img width="1366" height="721" alt="01 Data Preparation" src="https://github.com/user-attachments/assets/1cd0453c-c7d6-4512-a4da-e186f56ac7be" />
-
-<img width="1366" height="721" alt="02 Data Preparation" src="https://github.com/user-attachments/assets/987a387e-b033-4532-b6db-966b4f023d24" />
-
-<img width="1366" height="721" alt="03 Data Preparation" src="https://github.com/user-attachments/assets/c2da03f6-dd53-4f45-a1c3-1e1ca167cd38" />
-
-<img width="1366" height="721" alt="04 Data Preparation" src="https://github.com/user-attachments/assets/182bfc8a-c836-4a95-878f-b22fcb662306" />
 
 ### Phase 3: Exploratory Data Analysis (Excel)
 
@@ -256,8 +261,6 @@ A structured star schema model was implemented to improve scalability and analyt
 This model supports time intelligence, segmentation analysis, and scalable measure development.
 
 ### Phase 5: Measure Layer Design
-
-Phase 5: Measure Layer Design
 
 In this phase, I created a centralized measure layer to separate business logic from raw data and enable reusable KPI calculations. This approach improved readability, maintainability, and overall performance of the Power BI model.
 
@@ -424,15 +427,32 @@ Additionally, a deeper review of the slightly outperforming company or channel s
 
 Overall, performance optimization should focus on incremental efficiency improvements rather than structural changes, as the campaign framework is fundamentally sound.
 
-### Forecasting Approach
+## Forecasting Approach
 
 * A short-term (3-month) revenue forecast was applied using Power BI’s built-in analytics forecasting model.
 
 * Forecast horizon was intentionally limited to ensure reliability and avoid speculative long-term projections.
 
-### Dashboard Navigation
+## Bookmarks Navigation & Custom buttons
 
-To enhance usability and create a seamless reporting experience, bookmark-driven navigation was implemented within the Power BI report. This allowed the dashboards to function more like an interactive analytical application rather than static report pages.
+Interactive navigation was implemented using Power BI bookmarks and custom-designed buttons to enhance user experience and improve report usability.
+
+Implementation Highlights:
+
+* Created bookmarks to control page views, filter states, and visual visibility
+
+* Designed custom navigation buttons for seamless movement across dashboard pages
+
+* Enabled dynamic show/hide effects for a cleaner executive presentation
+
+* Improved storytelling flow and guided analytical exploration
+
+<img width="242" height="511" alt="Bookmarks Snapshot" src="https://github.com/user-attachments/assets/1a90ee8b-c828-4074-87f4-b420d86d3e3f" />
+
+**Business Value:**
+
+This approach transforms the report from a static dashboard into a guided analytical experience, allowing stakeholders to interact intuitively with insights while maintaining a structured decision-making flow.
+
 
 ## Overall Strategic Recommendation (Summary)
 
@@ -446,7 +466,7 @@ Overall, the strategy should prioritize efficiency, precision, and sustainable g
 
 ## Business Impact
 
-* This solution enables stakeholders to:
+This solution enables stakeholders to:
 
 * Monitor ROI in real time
 
@@ -478,17 +498,21 @@ Overall, the strategy should prioritize efficiency, precision, and sustainable g
 
 ## Conclusion
 
+The process began with detailed exploratory data analysis in Excel, where trends, relationships, and structural patterns were identified. The workflow then progressed into Power BI for semantic data modeling and advanced analytics. A scalable star schema was implemented and supported by a centralized DAX measure layer to ensure consistency, reusability, performance efficiency, and analytical accuracy.
+
 This project demonstrates the ability to:
 
-* Execute full exploratory analysis
+* Execute comprehensive exploratory data analysis
 
-* Build scalable semantic data models
+* Design and implement scalable semantic data models
 
-* Develop optimized DAX measures
+* Develop optimized and reusable DAX measures
 
-* Design executive-ready dashboards
+* Build executive-ready, interactive dashboards
 
-* Translate analytics into strategic recommendations
+* Translate analytical findings into strategic business recommendations
+
+Overall, this solution demonstrates how structured data modeling, optimized measure design, and interactive dashboard storytelling can transform marketing data into strategic decision support.
 
 ## Author
 
